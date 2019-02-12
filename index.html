@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+        crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" 
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+        
+        
+    </head>
+    <body>
+        <header>
+            Rock, Paper, Scissors Multiplayer Game
+        </header>
+        <div class="container">
+            <div class="row" style="margin-bottom: 20px;">
+                <div class="col-md-5">
+                    <div id="statusPlayer1Box">
+                        player 1 has disconnected, waiting for new player
+                    </div>
+                </div>
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-5">
+                    <div id="statusPlayer2Box">
+                        player 2 has disconnected, waiting for new player
+                    </div>  
+                </div>
+            </div>
+
+            <div class="row" style="margin-bottom: 20px;">
+                <div class="col-md-5">
+                    <div id="player1Box">
+                   
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div id="vsBox">
+                        VS.
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div id="player2Box">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <div id="choicesPlayer1Box">
+
+                    </div>
+                </div>
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-5">
+                    <div id="choicesPlayer2Box">
+                            
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+        <script type="text/javascript" src="logic.js"></script>
+    </body>
+</html>
